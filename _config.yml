@@ -5,7 +5,6 @@ google_analytics: G-EBC8NBRK90
 
 baseurl: ''
 
-include: ["_pages"]
 permalink: /:title/
 
 plugins: 
