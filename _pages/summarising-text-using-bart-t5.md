@@ -4,7 +4,7 @@ title: Summarising text Using BART and T5
 permalink: /summarising-text-using-bart-t5.html
 github: 
 ---
-![text-summarisation](/images/tekxt.png)
+![text-summarisation](./images/tekxt.png)
 
 Text summarization is the process of distilling the most important information from a source text to produce an abridged version for a particular user and task.
 

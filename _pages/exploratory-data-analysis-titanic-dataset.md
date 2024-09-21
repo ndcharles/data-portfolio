@@ -2,7 +2,7 @@
 layout: page
 title: Exploratory Data Analysis on Titanic Dataset
 permalink: /exploratory-data-analysis-titanic-dataset.html
-github: https://github.com/ndcharles/SGA08_DATASCI/blob/master/titanic_dataset.ipynb
+github: 
 ---
 Exploratory data analysis (EDA) is an important pillar of data science. It is an important step required to complete every project regardless of type of data you are working with. Exploratory analysis gives us a sense of what additional work should be performed to quantify and extract insights from our data.
 
@@ -29,9 +29,9 @@ The first step after importing the data was to preview the details therein. This
 ## Univariate Analysis
 There are 9 categorical variables and 3 numerical variables. A bar plot function was created to plot the categorical variables and a histogram function for the numerical variables.
 
-![bar_plot](/images/barplot.jpg)
+![bar_plot](./images/barplot.jpg)
 
-![histogram](/images/hist.jpg)
+![histogram](./images/hist.jpg)
 
 <br>
 
@@ -43,7 +43,7 @@ The aim here is to dig deeper into the dataset. To answer questions such as:
 - What is the survival rate of passengers with a parent or child(ren) aboard?
 - What is the survival rate with regards to their age?
 
-![bivariate](/images/bivariate.jpg)
+![bivariate](./images/bivariate.jpg)
 
 From the above figure (left to right) we can deduce that:
 - The lesser the number of spouse or sibling one has, the higher their chances of survival.
@@ -56,7 +56,7 @@ From the above figure (left to right) we can deduce that:
 ## Missing Values
 A quick check on the data for missing values shows that Age is missing a couple of values (177). We have a lot of missing values in the Cabin column (687). And only 2 missing in Embarked column. The exact values missing were be gotten using .isnull().sum().
 
-![missing_values](/images/missing.jpg)
+![missing_values](./images/missing.jpg)
 
 The following approaches were taken to treat the missing values:
 - Fill in the missing Age value instead of dropping NA. Replacing all Age null values with the average of their respective Pclass.(Pclass, Age)(1, 38)(2, 29)(3, 25).
@@ -68,3 +68,5 @@ The following approaches were taken to treat the missing values:
 - Perform univariate and bivariate analysis
 - Find and replace missing values using average
 - Also dropped some columns and rows.
+
+[\[View project on GitHub\]](https://github.com/ndcharles/SGA08_DATASCI/blob/master/titanic_dataset.ipynb)

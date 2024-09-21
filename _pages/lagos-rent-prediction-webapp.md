@@ -2,7 +2,7 @@
 layout: page
 title: Lagos Rent Prediction Web app (EazyRent)
 permalink: /lagos-rent-prediction-webapp.html
-github: https://github.com/ndcharles/inter-track-webapp
+github: 
 ---
 This is an inter-track project which involves the UI/UX team, Data Science team and Sodtware Engineering team.
 As part of the data science team, our task is to scrape the necessary data and then develop a machine learning model to help house seekers in Lagos have an idea of how much it would cost them to rent an apartment in locations around Lagos.
@@ -22,3 +22,5 @@ The model gave the below results:
 | **Validation** | 0.76 | 0.49 |
 
 An API was further created using FastAPI to allow the SWE team access the model. The API method was also beneficial so that the Data team can update the model when necessary.
+
+[\[View project on GitHub\]](https://github.com/ndcharles/inter-track-webapp)

@@ -4,7 +4,7 @@ title: Linear Regression on Lagos Rent
 permalink: /linear-regression-lagos-rent.html
 github: 
 ---
-![lagos-rent](/images/rent.png)
+![lagos-rent](./images/rent.png)
 
 As part of our practice labs, this task is to scrape contents from [nigeriapropertycentre](https://nigeriapropertycentre.com/for-rent/flats-apartments/lagos/showtype?bedrooms=2"). Afterwards, build a regression model to predict the housing price (rent) in Lagos.
 
