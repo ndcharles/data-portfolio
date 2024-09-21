@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ndcharles Nweke Data Portfolio</title>
+
+	<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Linear Regression on Lagos Rent | Ndcharles Nweke Data Portfolio</title>
+<meta name="generator" content="Jekyll v4.3.4" />
+<meta property="og:title" content="Linear Regression on Lagos Rent" />
+<meta name="author" content="Ndcharles Nweke" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Data Operations Research Growth" />
+<meta property="og:description" content="Data Operations Research Growth" />
+<link rel="canonical" href="http://localhost:4000/linear-regression-lagos-rent.html" />
+<meta property="og:url" content="http://localhost:4000/linear-regression-lagos-rent.html" />
+<meta property="og:site_name" content="Ndcharles Nweke Data Portfolio" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Linear Regression on Lagos Rent" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Ndcharles Nweke"},"description":"Data Operations Research Growth","headline":"Linear Regression on Lagos Rent","url":"http://localhost:4000/linear-regression-lagos-rent.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    
+	<link rel="stylesheet" href="/assets/style.css">
+	<link rel="stylesheet" href="/assets/pygment_trac.css">
+	<!-- Google Analytics -->
+	
+	  <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		ga('create', 'G-EBC8NBRK90', 'auto');
+		ga('send', 'pageview');
+	  </script>
+	
+	<!-- favicon here -->
+	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header>
+		
+        <img align="middle" src="/images/logo.png" alt="Logo" />
+
+        <h1><a href="http://localhost:4000/">Ndcharles Nweke</a></h1>
+		<p>Data | Operations | Research | Growth<br><br>
+		An engineering graduate with experience in data and operations, hyper research and everything growth. My interest is in real-life applications of data to business and every day problems. <br><br>
+		Let's Connect<br>
+		<a href="https://linkedin.com/in/nndcharles">LinkedIn</a> | <a href="https://twitter.com/nndcharles">Twitter</a> | <a href="https://ndcharles.github.io">Blog</a> | 
+		<a href="https://drive.google.com/file/d/1zikfMdLc0rLPhel-p-HjmPLqjkOpVrID/view?usp=sharing">View my Resume</a><br>
+		</p>
+
+      </header>
+      <section>
+
+      <h1>Linear Regression on Lagos Rent</h1>
+<hr>
+
+<p><img src="/images/rent.png" alt="lagos-rent" /></p>
+
+<p>As part of our practice labs, this task is to scrape contents from <a href="https://nigeriapropertycentre.com/for-rent/flats-apartments/lagos/showtype?bedrooms=2&quot;">nigeriapropertycentre</a>. Afterwards, build a regression model to predict the housing price (rent) in Lagos.</p>
+
+<h2 id="method">Method</h2>
+<p>Rent data was scraped from <a href="https://nigeriapropertycentre.com/for-rent/flats-apartments/lagos/showtype?bedrooms=2&quot;">nigeriapropertycentre</a> using Python and BeautifulSoup and were preprocessed in Excel to inspect the data for irregularities. EDA was then carried out on the data using python in jupyter-lab environment. Encoding of the categorical variables and model building were done in Python using MultiLabelBinarizer and LinearRegression algorithm; respectively.</p>
+
+<h2 id="discussions">Discussions</h2>
+
+<p>After splitting, the linear regression model gave a <em>score</em> of <strong>0.71</strong> and an <em>intercept</em> of <strong>5.6758</strong>. This leaves us with a linear model (where 5.6758 is the intercept; X, the independent variable and; m, the model coefficients.)<br /></p>
+<pre>y = 5.6758 + mX</pre>
+
+<p><a href="https://github.com/ndcharles/SGA08_DATASCI/tree/master/lagos_rent">[View project on GitHub]</a></p>
+
+<p><strong>Also see:</strong> <a href="https://github.com/ndcharles/SGA08_DATASCI/blob/master/LinearRegr.ipynb">Auto MPG Regression</a>
+This went a step further to use RidgeRegression (normalization algorithm) to perform regression task.</p>
+
+
+
+
+<br>
+<p><a href="http://localhost:4000/">[Back to Portfolio]</a></p> 
+<hr>
+<a href="https://github.com/ndcharles">[View my GitHub profile]</a> | <a href="https://ndcharles.github.io">[Read the Blog]</a>
+
+      </section>
+      <footer>
+<!--  <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p> -->
+      </footer>
+    </div>
+    <script src="/assets/scale.fix.js"></script>
+  </body>
+</html>

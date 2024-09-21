@@ -1,0 +1,24 @@
+title: Ndcharles Nweke Data Portfolio
+author: Ndcharles Nweke
+description: Data | Operations | Research | Growth
+google_analytics: G-EBC8NBRK90
+
+baseurl: ''
+
+include: ["_pages"]
+permalink: /:title/
+
+plugins: 
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Defaults
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
