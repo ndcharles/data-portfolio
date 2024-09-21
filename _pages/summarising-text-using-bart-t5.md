@@ -20,7 +20,8 @@ T5 is an encoder-decoder model pre-trained on a multi-task mixture of unsupervis
 
 BART and T5 were used for this project as they have been pre-trained. Using them reduced the lead time required for the project completion.
 
-![\[View project on GitHub\]](https://github.com/ndcharles/text-summarization)
+[\[View project on GitHub\]](https://github.com/ndcharles/text-summarization)
+
 <br>
 
 ## Discussions
