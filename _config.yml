@@ -3,7 +3,7 @@ author: Ndcharles Nweke
 description: Data Science & Analytics | Operations
 google_analytics: G-EBC8NBRK90
 
-baseurl: ''
+baseurl: "/data-portfolio"
 
 include: ["_pages"]
 permalink: /:title/
