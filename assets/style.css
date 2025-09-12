@@ -55,7 +55,7 @@ a:hover small {
 }
 
 .wrapper {
-  width:900px;
+  width:1100px;
   margin:0 auto;
 }
 
@@ -105,10 +105,14 @@ img {
 }
 
 header {
-  width:270px;
+  width:350px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+header img {
+  margin-bottom: 10px;
 }
 
 header ul {
@@ -118,7 +122,7 @@ header ul {
   background: #f4f4f4;
   border-radius:5px;
   border:1px solid #e0e0e0;
-  width:270px;
+  width:350px;
 }
 
 header li {
@@ -171,7 +175,7 @@ header ul a strong {
 }
 
 section {
-  width:600px;
+  width:700px;
   float:right;
   padding-bottom:50px;
 }
