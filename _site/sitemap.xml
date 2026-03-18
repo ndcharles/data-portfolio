@@ -1,21 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/exploratory-data-analysis-titanic-dataset.html</loc>
+<loc>http://localhost:4000/data-portfolio/alx-connect-peer-matching.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/</loc>
+<loc>http://localhost:4000/data-portfolio/customer-segmentation.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/lagos-rent-prediction-webapp.html</loc>
+<loc>http://localhost:4000/data-portfolio/exploratory-data-analysis-titanic-dataset.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/linear-regression-lagos-rent.html</loc>
+<loc>http://localhost:4000/data-portfolio/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/market-basket-analysis.html</loc>
+<loc>http://localhost:4000/data-portfolio/lagos-rent-prediction-webapp.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/summarising-text-using-bart-t5.html</loc>
+<loc>http://localhost:4000/data-portfolio/linear-regression-lagos-rent.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/data-portfolio/loan-prediction.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/data-portfolio/market-basket-analysis.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/data-portfolio/summarising-text-using-bart-t5.html</loc>
 </url>
 </urlset>
